@@ -1,0 +1,412 @@
+
+/* general*/
+@font-face {
+    font-family: 'MaSuperPolice';
+    src: url('media/MaSuperPolice.eot') format('eot'),
+         url('media/MaSuperPolice.woff') format('woff'),
+         url('media/MaSuperPolice.ttf') format('truetype'),
+         url('media/MaSuperPolice.svg') format('svg');
+           }
+
+body{
+  font-family:'open sans';
+  font-size: 100%;
+  line-height: 1.6;
+  color: #000000;
+  /*background-color: rgb(182,38,47);*/
+  margin:3px;
+    }
+
+/* header*/
+.icon{
+  float:right;
+  width:30px;
+  height:30px;
+  padding: 5px;
+    }
+
+.en{
+  margin:auto;
+  width: 100%;
+  background-color:rgb(41,48,57);
+  display: flex;
+
+  border-radius: 50% 50% 0 0;
+   }
+
+.titre {
+  font-family: 'MaSuperPolice', Arial, serif;
+  color:rgb(116,191,70);line-height: 2.5;
+       }
+
+h1{
+  width:100%;
+
+  text-align: center;
+  margin:auto;
+  }
+
+
+/* onglet*/
+
+.onglet{
+        display:flex;
+        justify-content: space-around;
+        flex-flow: row nowrap;
+        margin:-27px;
+        color:black;
+        text-decoration:none;
+        text-align:center;
+        }
+
+.onglet a{
+  background-color:rgb(116,191,70);
+       font-family:'Open Sans';
+        color:white;
+        border:2px solid white;
+        padding:8px;
+        border-radius: 10% 10% 0% 0%;
+        text-decoration:none;
+        text-align:center;
+        }
+
+.onglet a:hover { background-color:rgb(41,48,57); }
+.one a{}
+.two a{
+  border-bottom:1px solid black;
+}
+
+
+
+/*contenu des onglets*/
+h3{
+  padding: 5px;
+  color:rgb(116,191,70);
+  background-color:rgba(41,48,57,0.8);
+  border-radius: 5px;
+  margin:5px;
+  text-align: center;
+   }
+
+.contenu{
+  display:flex;
+  flex-wrap:wrap;
+  width: 100%;
+  border-top:1px solid black;
+  margin-top:32px;
+        }
+
+/*les articles de contenu*/
+
+#Box {
+    margin:auto;
+    margin-top: 20px;
+    width:30%;
+    min-width: 300px;
+    height: auto;
+    font-family: 'open sans';
+    background-color: #fff;
+      }
+
+.box1{
+   margin: auto;
+   width: 60%;
+   height: auto;
+   font-family: 'open sans';
+   background-color: #fff;
+   text-align:center;
+          }
+
+.box3{
+  margin: auto;
+  width: 60%;
+  height: auto;
+  font-family: 'open sans';
+  background-color: #fff;
+  text-align:center;
+
+}
+/*partie competence language*/
+
+
+  .Bar {
+      width: 90%;
+      height: 50px;
+      position: relative;
+      background: rgba(17, 17, 17, .3);
+      margin: 20px auto;
+  }
+  #HTML {
+      width: 100%;
+      animation: Animate-HTML 4s;
+      -webkit-animation: Animate-HTML 4s;
+      -moz-animation: Animate-HTML 4s;
+      -o-animation: Animate-HTML 4s;
+      height: 50px;
+      position: absolute;
+      background-color: #ea8564;
+  }
+  @keyframes Animate-HTML {
+      from {
+      width: 10px;
+  }
+  to {
+      width: 100%}
+  }@-webkit-keyframes Animate-HTML {
+      from {
+      width: 10px;
+  }
+  to {
+      width: 100%}
+  }@-moz-keyframes Animate-HTML {
+      from {
+      width: 10px;
+  }
+  to {
+      width: 100%}
+  }@-o-keyframes Animate-HTML {
+      from {
+      width: 10px;
+  }
+  to {
+      width: 100%}
+  }#CSS {
+      animation: Animate-CSS 5s;
+      -webkit-animation: Animate-CSS 5s;
+      -moz-animation: Animate-CSS 5s;
+      -o-animation: Animate-CSS 5s;
+      width: 80%;
+      height: 50px;
+      position: absolute;
+      background-color: #55a69f;
+  }
+  @keyframes Animate-CSS {
+      from {
+      width: 10px;
+  }
+  to {
+      width: 80%}
+  }@-webkit-keyframes Animate-CSS {
+      from {
+      width: 10px;
+  }
+  to {
+      width: 80%}
+  }@-moz-keyframes Animate-CSS {
+      from {
+      width: 10px;
+  }
+  to {
+      width: 80%}
+  }@-o-keyframes Animate-CSS {
+      from {
+      width: 10px;
+  }
+  to {
+      width: 80%}
+
+  }#JS {
+      animation: Animate-JS 4s;
+      -webkit-animation: Animate-JS 4s;
+      -moz-animation: Animate-JS 4s;
+      -o-animation: Animate-JS 4s;
+      width: 50%;
+      height: 50px;
+      position: absolute;
+      background-color: #c44e45;
+  }
+  @keyframes Animate-JS {
+      from {
+      width: 10px;
+  }
+  to {
+      width: 50%}
+  }@-webkit-keyframes Animate-JS {
+      from {
+      width: 10px;
+  }
+  to {
+      width: 50%}
+  }@-moz-keyframes Animate-JS {
+      from {
+      width: 10px;
+  }
+  to {
+      width: 50%}
+  }@-o-keyframes Animate-JS {
+      from {
+      width: 10px;
+  }
+  to {
+      width: 50%}
+
+
+  }#JAVA {
+      animation: Animate-JAVA 4s;
+      -webkit-animation: Animate-JAVA 4s;
+      -moz-animation: Animate-JAVA 4s;
+      -o-animation: Animate-JAVA 4s;
+      width: 45%;
+      height: 50px;
+      position: absolute;
+      background-color: #8e930c;
+  }
+  @keyframes Animate-JAVA {
+      from {
+      width: 10px;
+  }
+  to {
+      width: 45%}
+  }@-webkit-keyframes Animate-JAVA {
+      from {
+      width: 10px;
+  }
+  to {
+      width: 45%}
+  }@-moz-keyframes Animate-JAVA {
+      from {
+      width: 10px;
+  }
+  to {
+      width: 45%}
+  }@-o-keyframes Animate-JAVA {
+      from {
+      width: 10px;
+  }
+  to {
+      width: 45%}
+  }#PHP {
+      animation: Animate-PHP 4s;
+      -webkit-animation: Animate-PHP 4s;
+      -moz-animation: Animate-PHP 4s;
+      -o-animation: Animate-PHP 4s;
+      width: 60%;
+      height: 50px;
+      position: absolute;
+      background-color: #5A69A6;
+  }
+  @keyframes Animate-PHP {
+      from {
+      width: 10px;
+  }
+  to {
+      width: 60%}
+  }@-webkit-keyframes Animate-PHP {
+      from {
+      width: 10px;
+  }
+  to {
+      width: 60%}
+  }@-moz-keyframes Animate-PHP {
+      from {
+      width: 10px;
+  }
+  to {
+      width: 60%}
+  }@-o-keyframes Animate-PHP {
+      from {
+      width: 10px;
+  }
+  to {
+      width: 60%}
+  }#SQL {
+      animation: Animate-SQL 4s;
+      -webkit-animation: Animate-SQL 4s;
+      -moz-animation: Animate-SQL 4s;
+      -o-animation: Animate-SQL 4s;
+      width: 60%;
+      height: 50px;
+      position: absolute;
+      background-color: #23b1db;
+  }
+  @keyframes Animate-SQL {
+      from {
+      width: 10px;
+  }
+  to {
+      width: 60%}
+  }@-webkit-keyframes Animate-SQL {
+      from {
+      width: 10px;
+  }
+  to {
+      width: 60%}
+  }@-moz-keyframes Animate-SQL {
+      from {
+      width: 10px;
+  }
+  to {
+      width: 60%}
+  }@-o-keyframes Animate-SQL {
+      from {
+      width: 10px;
+  }
+  to {
+      width: 60%}
+
+  }.Skill-Area {
+      z-index: 1;
+      float: left;
+
+      margin-top: 15px;
+      margin-left: 15px;
+      text-shadow: none;
+      color: #fff;
+      //font-family: Lato-Regular, sans-serif;
+      font-size: 18px;
+  }
+  .PercentText {
+      z-index: 3;
+      position: relative;
+      padding-right: 15px;
+      margin-top: 15px;
+      float: right;
+      text-shadow: none;
+      color: #fff;
+      font-size: 18px;
+  }
+/* partie formations experiences */
+ul{ list-style:none; }
+
+.liencour {text-decoration:none;color:black;font-family:'Open Sans';}
+.liensite{text-decoration:none;color:black;font-family:'Open Sans';font-style: italic;}
+
+
+/* partie réalisations*/
+
+
+
+/* section de bas de page*/
+
+h5{  color:rgb(116,191,70);}
+/* footer*/
+footer{
+  display:flex;
+  flex-wrap:wrap;
+  width: 100%;
+  border-top: 1px solid black;
+  margin:auto;
+  margin:auto;
+  padding-bottom: 20px;
+  background-color:rgb(41,48,57);
+      }
+.loisir{  text-align:center;
+  width: 30%;
+    color:white;}
+
+.perso{
+  text-align:center;
+  width: 30%;
+    color:white;
+
+}
+.coordo{
+  text-align:center;
+  width: 30%;
+    color:white;
+
+}
+.im {
+  width:30px;
+  height:30px;
+    }
